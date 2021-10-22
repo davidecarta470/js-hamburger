@@ -1,12 +1,12 @@
 
-const el1 = document.getElementById('hamb-menu');
-const btnshow = document.getElementById('hamb-show');
-const btnhide = document.getElementById('humb-hide')
+const hamburgerMenu = document.querySelector('.hamburger-menu');
+const btnshow = document.querySelector('.fas.fa-bars');
+const btnhide = document.querySelector('.fas.fa-times')
 
 
 btnshow.addEventListener('click',function(){
-  el1.classList.add('show');
+  hamburgerMenu.classList.add('active');
 });
 btnhide.addEventListener('click',function(){
-  el1.classList.remove('show');
+  hamburgerMenu.classList.remove('active');
 });
