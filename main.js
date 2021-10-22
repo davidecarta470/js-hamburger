@@ -8,5 +8,5 @@ btnshow.addEventListener('click',function(){
   el1.classList.add('show');
 });
 btnhide.addEventListener('click',function(){
-  el1.classList.add('hide');
+  el1.classList.remove('show');
 });
